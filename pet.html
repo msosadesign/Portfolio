@@ -61,30 +61,84 @@
 					<div class="text-container">
 						<h3 class="page__main__title">Instant Pet Finder Signup Form</h3>
 						<p>Instant Pet Finder is an idea for an app that focuses on finding cute pets for cute users. I’ve been given the task to make the registration section on a wireframe. So I used design patters to make an enjoyable and engaging flow.</p>
-                        
+                        <p>This project was interesting to me because I learned about Design Patterns, how people are used to certain repeating aspects of design, and how we can help our users implementing this in our favor. I learned to apply these patterns, how to inform users about their current actions, how to organize information and overall, how to make a design less frustrating and more engaging.</p>
+                        <h4>Project's Problem</h4>
+                        <p>My objective in this project was to design the signup form for a the app. A form like this requires many design patterns to give the users an enjoyable experience and avoid overwhelming them; therefore, in theory, design patterns increase conversion rates (marketing term user for when an user completes an action). The main point is to get user to complete the registration.</p>
+                        <h4>Project's Audience</h4>
+                        <p>The user personas would be people interested in adopting a pet, who, out of the top of my mind, I guess they would be economically stable, like workers, couples and or families, looking for a new partner.</p>
+                        <h4>My Process</h4>
+                        <p>My first step was to individuate those design patterns that I can use in my favor, in particular I used: 
+                            <a  target="_blank" href="http://ui-patterns.com/patterns/Sequencing" class="link">sequencing</a>, 
+                            <a  target="_blank" href="http://ui-patterns.com/patterns/StepsLeft" class="link">steps left</a>, 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/VerticalDropdownMenu" class="link">dropdown menu</a>, 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/PasswordStrengthMeter" class="link">password strength meter</a>, 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/InputFeedback" class="link">input feedback</a>, 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/categorization" class="link">categorization</a>, 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/ProgressiveDisclosure" class="link">progressive disclosure</a>, 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/InputPrompt" class="link">input prompt</a>, 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/Thumbnail" class="link">thumbnails</a>, and 
+                            <a target="_blank" href="http://ui-patterns.com/patterns/Recognition-over-recall" class="link">recognition over recall</a>. </p>
+                        <p>I started assembling everything on the mobile version, since it's easier to reorganize it to make a desktop version rather than the other way around. My first step was the data filling, I included the necessary fields with input prompts, which indicate examples of how to format data:</p>
                         <div class="project__media" style="text-align: center">
-					       <img src="./images/Projects/5_Pet/mobile1.png">
+					       <img src="./images/Projects/5_Pet/inputprompt.png">
+				        </div>
+                        <p>On the State and City field I added a dropdown menu to keep the screen organized. On the password section I included a strenght meter to encourage users to create a strong password and there's advice on how to do it.</p>
+                        <div class="project__media" style="text-align: center">
+                            <figure>
+                                <img src="./images/Projects/5_Pet/mobile1.png">
+                                <figcaption><a href="images/Projects/5_Pet/mobile1.png" class="button">Register Screen</a></figcaption>
+                            </figure>
+				        </div>
+                        <p>In the case that an user misses an input or types badly formatted text, a brief message will show up, explaining the error and how to solve it, check it out:</p>
+                        <div class="project__media" style="text-align: center">
+                            <figure>
+                                <img src="./images/Projects/5_Pet/mobile2.png">
+                                <figcaption><a href="images/Projects/5_Pet/mobile2.png" class="button">Register Screen - Wrong Version</a></figcaption>
+                            </figure>
+				        </div>
+                        <p>You can also see the progress bar on top: this helps the users know how many steps are left and encourages them to complete the registration. It also separates the tasks into more manageable steps.</p>
+                        <div class="project__media" style="text-align: center">
+					       <img src="./images/Projects/5_Pet/progressbar.png">
+				        </div>
+                        <p>On the pets section, I implemented two main patterns:</p>
+                        <ul>
+                            <li><strong>Recognition over recall:</strong> we show the pets in thumbnails to help the user choose one. Then, more options show up and the user can narrow its search while seeing and recognizing what he likes.</li>
+                            <li><strong>Progressive Disclosure: </strong> more options show up only after the users chooses, this avoids overwhelm them by showing little by little the options. The user can also continue with a simple option without narrowing it down.</li>
+                        </ul>
+                        <div class="project__media" style="text-align: center">
+                            <figure>
+                                <img src="./images/Projects/5_Pet/mobile3.png">
+                                <figcaption><a href="images/Projects/5_Pet/mobile3.png" class="button">Pets! Screen</a></figcaption>
+                            </figure>
+				        </div>
+                        <p>Lastly, the Final Steps section helps users start doing something in the app. In this point, the user is registered and we can send him "emails about adoptable pets", which will show a feedback message when selected.</p>
+                        <div class="project__media" style="text-align: center">
+                           <figure>
+                               <img src="./images/Projects/5_Pet/mobile4.png">
+                               <figcaption><a href="images/Projects/5_Pet/mobile4.png" class="button">Final Steps Screen</a></figcaption>
+                            </figure>
+				        </div>
+                        <p>After completing the mobile version, it was easy to continue designing the desktop version. I basically rearranged everything and added images to fill the empty space. The only major difference is the pets tab, which will show an image of the pet that matches with the user's result.</p>
+                        <div class="project__media" style="text-align: center">
+                           <figure>
+                               <img src="./images/Projects/5_Pet/desktop1.png">
+                               <figcaption><a href="images/Projects/5_Pet/desktop1.png" class="button">Register - Desktop</a></figcaption>
+                            </figure>
 				        </div>
                         <div class="project__media" style="text-align: center">
-					       <img src="./images/Projects/5_Pet/mobile2.png">
+					       <figure>
+                               <img src="./images/Projects/5_Pet/desktop2.png">
+                               <figcaption><a href="images/Projects/5_Pet/desktop2.png" class="button">Pets! - Desktop</a></figcaption>
+                            </figure>
 				        </div>
                         <div class="project__media" style="text-align: center">
-					       <img src="./images/Projects/5_Pet/mobile3.png">
+					       <figure>
+                               <img src="./images/Projects/5_Pet/desktop3.png">
+                               <figcaption><a href="images/Projects/5_Pet/desktop3.png" class="button">Final Steps - Desktop</a></figcaption>
+                            </figure>
 				        </div>
-                        <p><span style="color: #0F6FFF">* </span>The options show up while the user is selecting, this helps him/her decide with a tinier number of options and therefore having to think less. Showing all the options at the same time could overwhelm the user.</p>
-                        <div class="project__media" style="text-align: center">
-					       <img src="./images/Projects/5_Pet/mobile4.png">
-				        </div>
-                        <p>This project was interesting to me because I learned about Design Patterns, how people are used to certain repeating aspects of design, and how we can help our users implementing this in our favor. I learned to apply these patterns, how to inform users about their current actions, how to organize information and overall, how to make a design less frustrating.</p>
-                        <div class="project__media" style="text-align: center">
-					       <img src="./images/Projects/5_Pet/desktop1.png">
-				        </div>
-                        <div class="project__media" style="text-align: center">
-					       <img src="./images/Projects/5_Pet/desktop2.png">
-				        </div>
-                        <div class="project__media" style="text-align: center">
-					       <img src="./images/Projects/5_Pet/desktop3.png">
-				        </div>
+                        <h4>Outcome and What I Learned</h4>
+                        <p>The final results are the previous screens, which could the be developed to create a prototype and a full design. This project taught me about creating an enjoyable flow with design patterns, using psychology principles that improve a design's experience.</p>
 					</div>
 				</div>
 			</div>
