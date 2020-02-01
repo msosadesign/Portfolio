@@ -214,6 +214,16 @@ legend {
   white-space: normal;
   /* 1 */ }
 
+table{
+  border-collapse:collapse;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
@@ -225,6 +235,10 @@ progress {
  */
 textarea {
   overflow: auto; }
+
+.textquote{
+    margin-left: 20px; margin-right: 40px
+}
 
 /**
  * 1. Add the correct box sizing in IE 10.
